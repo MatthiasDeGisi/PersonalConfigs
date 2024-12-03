@@ -1,0 +1,6 @@
+[INFO  Tue 03 Dec 2024 01:02:03 PM] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=stylua) {}
+[INFO  Tue 03 Dec 2024 01:02:03 PM] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=shfmt) {}
+[INFO  Tue 03 Dec 2024 01:02:03 PM] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) {}
+[INFO  Tue 03 Dec 2024 01:02:04 PM] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=shfmt)
+[INFO  Tue 03 Dec 2024 01:02:06 PM] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=stylua)
+[INFO  Tue 03 Dec 2024 01:02:06 PM] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=lua-language-server)
