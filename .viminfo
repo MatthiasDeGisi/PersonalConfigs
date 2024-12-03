@@ -11,16 +11,16 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/* Local configuration for Roundcube Webmail *
+~Msle0~/\<Merge\>
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1733269906,,"q"
 :wq
 |2,0,1733258867,,"wq"
-:q
-|2,0,1733258804,,"q"
 :q!
 |2,0,1733179971,,"q!"
 ://roundcube:Str0ngP%40ss@localhost/webmaildb';
@@ -47,6 +47,8 @@ $
 |2,0,1732748657,,"set numbers"
 
 # Search String History (newest to oldest):
+? \<Merge\>
+|2,1,1733269901,,"\\<Merge\\>"
 ?//          required to match old user data records with the new host.
 |2,1,1733179903,47,"/          required to match old user data records with the new host."
 ?// WARNING: After hostname change update of mail_host column in users table is
@@ -185,36 +187,50 @@ $
 |3,0,36,0,1,0,1733191042," "
 
 # File marks:
-'0  24  13  ~/.bashrc
-|4,48,24,13,1733258867,"~/.bashrc"
-'1  1  0  ~/bashrc
-|4,49,1,0,1733258804,"~/bashrc"
-'2  27  0  /home/matthias/.bashrc
-|4,50,27,0,1733258790,"/home/matthias/.bashrc"
-'3  14  8  ~/.config/nvim/init.lua
-|4,51,14,8,1733192326,"~/.config/nvim/init.lua"
-'4  13  2  ~/.config/nvim/init.lua
-|4,52,13,2,1733192062,"~/.config/nvim/init.lua"
-'5  13  2  ~/.config/nvim/init.lua
-|4,53,13,2,1733192062,"~/.config/nvim/init.lua"
-'6  55  45  /var/www/html/roundcube/config/config.inc.php
-|4,54,55,45,1733191052,"/var/www/html/roundcube/config/config.inc.php"
-'7  61  0  /var/www/html/roundcube/config/config.inc.php
-|4,55,61,0,1733190897,"/var/www/html/roundcube/config/config.inc.php"
-'8  57  0  /var/www/html/roundcube/config/config.inc.php
-|4,56,57,0,1733190897,"/var/www/html/roundcube/config/config.inc.php"
-'9  62  26  /var/www/html/roundcube/config/config.inc.php
-|4,57,62,26,1733190470,"/var/www/html/roundcube/config/config.inc.php"
+'0  2  0  ~/.git/MERGE_MSG
+|4,48,2,0,1733269906,"~/.git/MERGE_MSG"
+'1  24  13  ~/.bashrc
+|4,49,24,13,1733258867,"~/.bashrc"
+'2  24  13  ~/.bashrc
+|4,50,24,13,1733258867,"~/.bashrc"
+'3  1  0  ~/bashrc
+|4,51,1,0,1733258804,"~/bashrc"
+'4  1  0  ~/bashrc
+|4,52,1,0,1733258804,"~/bashrc"
+'5  27  0  /home/matthias/.bashrc
+|4,53,27,0,1733258790,"/home/matthias/.bashrc"
+'6  27  0  /home/matthias/.bashrc
+|4,54,27,0,1733258790,"/home/matthias/.bashrc"
+'7  14  8  ~/.config/nvim/init.lua
+|4,55,14,8,1733192326,"~/.config/nvim/init.lua"
+'8  14  8  ~/.config/nvim/init.lua
+|4,56,14,8,1733192326,"~/.config/nvim/init.lua"
+'9  13  2  ~/.config/nvim/init.lua
+|4,57,13,2,1733192062,"~/.config/nvim/init.lua"
 
 # Jumplist (newest first):
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1733269906,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1733269901,"~/.git/MERGE_MSG"
+-'  6  0  ~/.git/MERGE_MSG
+|4,39,6,0,1733269894,"~/.git/MERGE_MSG"
 -'  24  13  ~/.bashrc
 |4,39,24,13,1733258867,"~/.bashrc"
+-'  24  13  ~/.bashrc
+|4,39,24,13,1733258867,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1733258829,"~/.bashrc"
 -'  1  0  ~/.bashrc
 |4,39,1,0,1733258829,"~/.bashrc"
 -'  1  0  ~/bashrc
 |4,39,1,0,1733258804,"~/bashrc"
 -'  1  0  ~/bashrc
 |4,39,1,0,1733258804,"~/bashrc"
+-'  1  0  ~/bashrc
+|4,39,1,0,1733258804,"~/bashrc"
+-'  27  0  /home/matthias/.bashrc
+|4,39,27,0,1733258790,"/home/matthias/.bashrc"
 -'  27  0  /home/matthias/.bashrc
 |4,39,27,0,1733258790,"/home/matthias/.bashrc"
 -'  27  0  /home/matthias/.bashrc
@@ -231,6 +247,8 @@ $
 |4,39,1,0,1733258782,"/home/matthias/.bashrc"
 -'  1  0  /home/matthias/.bashrc
 |4,39,1,0,1733258782,"/home/matthias/.bashrc"
+-'  1  0  /home/matthias/.bashrc
+|4,39,1,0,1733258782,"/home/matthias/.bashrc"
 -'  14  8  ~/.config/nvim/init.lua
 |4,39,14,8,1733192326,"~/.config/nvim/init.lua"
 -'  14  8  ~/.config/nvim/init.lua
@@ -247,6 +265,10 @@ $
 |4,39,14,8,1733192326,"~/.config/nvim/init.lua"
 -'  14  8  ~/.config/nvim/init.lua
 |4,39,14,8,1733192326,"~/.config/nvim/init.lua"
+-'  14  8  ~/.config/nvim/init.lua
+|4,39,14,8,1733192326,"~/.config/nvim/init.lua"
+-'  13  2  ~/.config/nvim/init.lua
+|4,39,13,2,1733192272,"~/.config/nvim/init.lua"
 -'  13  2  ~/.config/nvim/init.lua
 |4,39,13,2,1733192272,"~/.config/nvim/init.lua"
 -'  13  2  ~/.config/nvim/init.lua
@@ -311,28 +333,8 @@ $
 |4,39,1,0,1733192057,"~/.config/nvim/init.lua"
 -'  1  0  ~/.config/nvim/init.lua
 |4,39,1,0,1733192057,"~/.config/nvim/init.lua"
--'  55  45  /var/www/html/roundcube/config/config.inc.php
-|4,39,55,45,1733191052,"/var/www/html/roundcube/config/config.inc.php"
--'  55  45  /var/www/html/roundcube/config/config.inc.php
-|4,39,55,45,1733191052,"/var/www/html/roundcube/config/config.inc.php"
--'  55  45  /var/www/html/roundcube/config/config.inc.php
-|4,39,55,45,1733191052,"/var/www/html/roundcube/config/config.inc.php"
--'  55  45  /var/www/html/roundcube/config/config.inc.php
-|4,39,55,45,1733191052,"/var/www/html/roundcube/config/config.inc.php"
--'  55  45  /var/www/html/roundcube/config/config.inc.php
-|4,39,55,45,1733191052,"/var/www/html/roundcube/config/config.inc.php"
--'  55  45  /var/www/html/roundcube/config/config.inc.php
-|4,39,55,45,1733191052,"/var/www/html/roundcube/config/config.inc.php"
--'  55  45  /var/www/html/roundcube/config/config.inc.php
-|4,39,55,45,1733191052,"/var/www/html/roundcube/config/config.inc.php"
--'  55  45  /var/www/html/roundcube/config/config.inc.php
-|4,39,55,45,1733191052,"/var/www/html/roundcube/config/config.inc.php"
--'  55  45  /var/www/html/roundcube/config/config.inc.php
-|4,39,55,45,1733191052,"/var/www/html/roundcube/config/config.inc.php"
--'  55  45  /var/www/html/roundcube/config/config.inc.php
-|4,39,55,45,1733191052,"/var/www/html/roundcube/config/config.inc.php"
--'  55  45  /var/www/html/roundcube/config/config.inc.php
-|4,39,55,45,1733191052,"/var/www/html/roundcube/config/config.inc.php"
+-'  1  0  ~/.config/nvim/init.lua
+|4,39,1,0,1733192057,"~/.config/nvim/init.lua"
 -'  55  45  /var/www/html/roundcube/config/config.inc.php
 |4,39,55,45,1733191052,"/var/www/html/roundcube/config/config.inc.php"
 -'  55  45  /var/www/html/roundcube/config/config.inc.php
@@ -409,6 +411,13 @@ $
 |4,39,55,45,1733191052,"/var/www/html/roundcube/config/config.inc.php"
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/MERGE_MSG
+	*	1733269906	0
+	"	2	0
+	^	2	0
+	.	1	0
+	+	1	0
 
 > ~/.bashrc
 	*	1733258866	0
@@ -670,20 +679,3 @@ $
 	+	1	24
 	+	102	28
 	+	12	26
-
-> /etc/dovecot/conf.d/10-master.conf
-	*	1732791165	0
-	"	1	14
-	^	111	15
-	.	111	14
-	+	55	54
-	+	59	18
-	+	110	2
-	+	111	2
-	+	114	2
-	+	103	2
-	+	107	2
-	+	114	3
-	+	113	19
-	+	114	0
-	+	111	14
