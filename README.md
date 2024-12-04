@@ -1,0 +1,4 @@
+# Requirements
+- stow
+- tmux
+- nvim
