@@ -1,6 +1,5 @@
 # .bashrc
-tmux
-systemctl start postfix
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
   . /etc/bashrc
@@ -22,3 +21,4 @@ alias cp='cp -i'
 alias mv='mv -i'
 export PATH="$PATH:/opt/nvim-linux64/bin"
 alias vim=nvim
+tmux
